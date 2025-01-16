@@ -46,7 +46,15 @@ AWS_SECRET_ACCESS_KEY
 Configure K8S to allow deployments from  `gitlab`  user which we created above. We will need to modify our  `aws-auth`  `ConfigMap`  defined in  `kube-system`  namespace. We will need to add  `mapUsers:`  section to this file.
 
 ```bash
-kubectl -n kube-system edit cm aws-auth# Add following sectionmapUsers: |- userarn: arn:aws:iam::<your-aws-accoun-id>:user/gitlabusername: gitlabgroups:- system:masters
+kubectl -n kube-system edit cm aws-auth
+```
+Add following section
+``` yaml
+mapUsers: |
+  - userarn: arn:aws:iam::your-aws-accoun-id:user/gitlab
+    username: gitlab
+groups:
+  - system:masters
 ```
 The sample aws-auth file is  [here](https://raw.githubusercontent.com/sulemanhasib43/docker-awscli-kubectl/master/aws-auth-cm.yml).
 
