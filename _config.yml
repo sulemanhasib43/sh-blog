@@ -21,6 +21,8 @@ tagline: A blog on Technology, AI, DevOps, Linux, Apple & much more # it will di
 description: >- # used by seo meta and the atom feed
   A blog on Technology, AI, DevOps, Linux, Apple & much more
 
+logo: /assets/img/favicons/favicon.svg # the logo on the top left corner of the site
+
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://blog.samuraihack.win"
@@ -169,6 +171,10 @@ jekyll_compose:
       image:
         path: /assets/img/
         alt: ""
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-url-metadata
 
 # ------------ The following options are not recommended to be modified ------------------
 
