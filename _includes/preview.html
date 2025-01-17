@@ -2,11 +2,12 @@
 
 <div>
   {% if meta['og:image'] != blank %}
-  <img src="{{ meta['og:image'] }}" />
+  <img src="{{ meta['og:image'] }}" alt="{{ meta['og:title'] }}" />
   {% else %}
   <!-- Add a fallback image here, if the opengraph image for given url does not exist -->
   {% endif %}
-  <h3><a href="{{ meta['url'] }}">{{ meta['title'] }}</a></h3>
+  {% comment %} <h3><a href="{{ meta['url'] }}">{{ meta['title'] }}</a></h3> {% endcomment %}
+  <h3><a href="{{ include.url }}">{{ meta['title'] }}</a></h3>
   {% comment %} <h3>{{ meta['title'] }}</h3> {% endcomment %}
   <p>{{ meta['og:description'] }}</p>
 </div>
