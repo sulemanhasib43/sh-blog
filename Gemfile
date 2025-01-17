@@ -24,4 +24,5 @@ group :jekyll_plugins do
   # other gems
   gem 'jekyll-compose'
   gem "jekyll-url-metadata"
+  gem 'jekyll-sitemap'
 end
