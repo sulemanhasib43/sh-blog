@@ -25,7 +25,8 @@
         "stylelint.vscode-stylelint",
         "yzhang.markdown-all-in-one",
         // Git
-        "mhutchie.git-graph"
+        "mhutchie.git-graph",
+        "github.vscode-github-actions"
       ]
     }
   }
