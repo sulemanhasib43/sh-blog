@@ -105,7 +105,8 @@ avatar: /assets/img/favicons/favicon.svg
 # Logo URL: https://www.freepik.com/icon/software-development_9364790#fromView=search&page=1&position=27&uuid=b75ee402-b798-4e8c-bd67-57e6654d4a98
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: /assets/img/open-graph.png # string, local or CORS resources
+social_preview_image: /assets/img/super-computer-og-image.jpg # string, local or CORS resources
+# social_preview_image: /assets/img/open-graph.png # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true
