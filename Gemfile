@@ -24,5 +24,4 @@ group :jekyll_plugins do
   gem "jekyll-url-metadata"
   gem 'jekyll-sitemap'
   gem 'jekyll-seo-tag'
-  gem "jekyll-webp"
 end
