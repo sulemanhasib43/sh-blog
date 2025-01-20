@@ -5,7 +5,7 @@ date:   2025-01-04 09:51:55 +0500
 categories: [DEVOPS]
 tags: [devops, continuous-delivery, continuous-deployment]
 image:
-  path: /assets/img/continous-delivery-and-deployment.jpg
+  path: /assets/img/continous-delivery-and-deployment.webp
   alt: "Image credit: blog.crisp.se"
 ---
 
