@@ -3,7 +3,7 @@ layout: post
 title: 'Observability: Tracing in AWS Lambdas using AWS X-Ray'
 date: 2021-11-17
 categories: [DEVOPS]
-tags: [aws, cloud, devops, x-ray, tracing, observability, lambda, python]
+tags: [aws, devops, cloud, devops, x-ray, tracing, observability, lambda, python]
 image:
   path: "/assets/img/aws-x-ray.webp"
   alt: ''

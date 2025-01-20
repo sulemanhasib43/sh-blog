@@ -3,7 +3,7 @@ layout: post
 title: Configure JupyterHub to use AWS Cognito
 date: 2021-11-04
 categories: [DEVOPS]
-tags: [aws, cognito, jupyterhub]
+tags: [aws, cognito, jupyterhub, devops]
 image:
   path: "/assets/img/jupyter-hub.webp"
   alt: 'Configure JupyterHub to use AWS Cognito'

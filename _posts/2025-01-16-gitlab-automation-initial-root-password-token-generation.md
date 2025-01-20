@@ -3,7 +3,7 @@ layout: post
 title: 'GitLab Automation: Initial Root Password & Token Generation'
 date: 2025-01-16 10:53 +0500
 categories: [DEVOPS]
-tags: [gitlab, docker, cloudformation, automation, bash]
+tags: [gitlab, docker, cloudformation, automation, bash, devops]
 image:
   path: "/assets/img/gitlab-ci-cd-pipeline.webp"
   alt: 'gitlab initial root password in CI/CD Pipelines'
