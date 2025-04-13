@@ -33,7 +33,7 @@ Efficiently manage vehicles and fleets with this specialized app:
 ## Personal Wiki and Expense Tracking
 Organize information and track expenses seamlessly:
 {% include preview.html url = "https://apps.apple.com/app/id1557175442" %}
-{% include preview.html url = "https://apps.apple.com/app/id1492055171" %}
+<!-- {% include preview.html url = "https://apps.apple.com/app/id1492055171" %} -->
 
 ## Chromium Based Browser powered with AI
 Experience a smart browsing experience with this innovative app:
@@ -46,7 +46,7 @@ Keep unwanted messages at bay with effective SMS filtering:
 ## Image Processing, Editing and Touching
 Enhance your photos with these powerful editing tools:
 {% include preview.html url = "https://apps.apple.com/app/id878783582" %}
-{% include preview.html url = "https://apps.apple.com/app/id331975235" %}
+<!-- {% include preview.html url = "https://apps.apple.com/app/id331975235" %} -->
 
 ## Apple Office Suite
 Boost your productivity with these essential office suite apps:
