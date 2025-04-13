@@ -21,7 +21,7 @@ Before diving in, ensure the following are in place:
 2. **Basic CLI Knowledge**: Familiarity with command-line operations will make the process easier.
 
 ---
-### **Step 0: Run Ollama ***
+### **Step 0: Run Ollama**
 Follow Step 1 & 2 from this [blog]({% post_url 2025-01-27-how-to-run-deepseek-r1-locally-using-ollama-command-line %}).
 
 ### **Step 1: Run OpenWeb-UI Using Docker**
