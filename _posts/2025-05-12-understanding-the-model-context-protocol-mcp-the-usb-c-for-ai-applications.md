@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Understanding the Model Context Protocol (MCP): The USB-C for AI Applications'
-date: 2025-05-12
+date: 2025-05-13
 categories: [GENERATIVE_AI, ARTIFICIAL_INTELLIGENCE]
 tags: [mcp, mode-context-protocol, offline, mistral, openweb, ui, deepseek, r1, local, llm, genrative, general, ai, ollama, chatgpt, linux, windows, mac, model, on-premises, self-host, cloud, anthropic, claude, sonnet, aws, bedrock]
 image:
@@ -57,6 +57,17 @@ For developers seeking robust AI integration in their workflows, **Cline** offer
 
 * Access powerful AI tools directly within VSCode.
 * Seamlessly integrate AWS Bedrock using AWS Profiles. [Learn how to install Cline](https://docs.cline.bot/getting-started/installing-cline) and [set up AWS Bedrock](https://docs.cline.bot/custom-model-configs/aws-bedrock-w-profile-authentication).
+
+## MCP Servers
+The Model Context Protocol (MCP) offers a diverse array of servers designed to extend the capabilities of Large Language Models (LLMs) by enabling secure and controlled access to various tools and data sources. The official MCP repository on GitHub provides a comprehensive collection of these servers, categorized into reference implementations, official integrations, and community-contributed servers.
+
+**Reference implementations** serve as foundational examples demonstrating core MCP features and SDK usage. These include servers for interacting with file systems, databases like **PostgreSQL and SQLite**, cloud storage services such as **Google Drive**, and development tools including **Git, GitHub, and GitLab**. Additionally, there are servers for web and browser automation (e.g., **Puppeteer**), productivity and communication platforms (e.g., **Slack, Google Maps**), and AI-specific tools like **EverArt** for image generation and **Sequential Thinking** for dynamic problem-solving.
+
+**Official integrations** are maintained by companies to provide production-ready MCP servers tailored to their platforms. Notable examples include integrations with **Axiom** for log analysis, **Browserbase** for cloud-based browser automation, **Cloudflare** for resource management, and **Stripe** for payment processing. These integrations enable seamless interaction between LLMs and enterprise-grade services, enhancing the practical applications of MCP in various industries.([GitHub][2], [modelcontextprotocol.info][3])
+
+**Community-contributed servers** further expand MCP's versatility, covering a wide range of applications. These include servers for managing **Docker** containers and **Kubernetes** clusters, interacting with **project management** tools like Linear and Todoist, accessing music services such as **Spotify**, and connecting to various databases including **MySQL, MSSQL, and Snowflake**. While these community servers showcase the adaptability of **MCP**, it's important to note that they are **untested and not officially endorsed**, and thus should be used with caution.
+
+For a detailed overview and access to the full list of available MCP servers, you can visit the official repository here: [https://github.com/modelcontextprotocol/servers?tab=readme-ov-file](https://github.com/modelcontextprotocol/servers?tab=readme-ov-file).
 
 ## Conclusion
 
