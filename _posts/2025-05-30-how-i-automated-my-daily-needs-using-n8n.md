@@ -72,7 +72,7 @@ The workflow runs on a scheduled trigger and retrieves recent posts from a speci
 1. Replace `ACCOUNTID` in the URL field with the ID you retrieved in Step 2:
 
    ```
-   https://mastodon.social/api/v1/accounts/&<ACCOUNTID>;/statuses
+   https://mastodon.social/api/v1/accounts/<ACCOUNTID>;/statuses
    ```
 
 #### Step 4: Configure the "Boost Statuses" Node
