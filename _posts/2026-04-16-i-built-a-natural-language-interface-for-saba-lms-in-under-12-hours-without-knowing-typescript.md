@@ -3,7 +3,6 @@ title: "I Built a Natural Language Interface for SABA LMS in Under 12 Hours (Wit
 date: 2026-04-16 09:00:00 +0800
 categories: [GENERATIVE_AI, ARTIFICIAL_INTELLIGENCE]
 tags: [mcp, model-context-protocol, typescript, saba, lms, claude, claude-code, ai, automation, markitdown]
-author: suleman_hasib
 description: How I used MCP, Claude Code, and a spec-first workflow to build a natural language interface for SABA LMS in under 12 hours — without writing a single line of TypeScript myself.
 image:
   path: /assets/img/mcp-saba-lms-claude.png
