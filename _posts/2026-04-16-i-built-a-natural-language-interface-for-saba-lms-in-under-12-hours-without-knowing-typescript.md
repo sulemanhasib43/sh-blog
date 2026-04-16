@@ -6,7 +6,7 @@ tags: [mcp, model-context-protocol, typescript, saba, lms, claude, claude-code, 
 author: suleman_hasib
 description: How I used MCP, Claude Code, and a spec-first workflow to build a natural language interface for SABA LMS in under 12 hours — without writing a single line of TypeScript myself.
 image:
-  path: /assets/img/mcp.png
+  path: /assets/img/mcp-saba-lms-claude.png
   alt: Natural language interface for SABA LMS using MCP
 ---
 
