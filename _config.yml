@@ -40,6 +40,7 @@ social:
   email: blog@samuraihack.win # change to your email address
   links:
     # The first element serves as the copyright owner's link
+    - https://i.samuraihack.win # Portfolio website
     - https://twitter.com/suleman_hasib # change to your Twitter homepage
     - https://github.com/sulemanhasib # change to your GitHub homepage
     # Uncomment below to add more social links
