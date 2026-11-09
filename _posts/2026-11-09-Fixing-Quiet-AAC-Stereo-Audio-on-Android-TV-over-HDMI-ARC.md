@@ -4,6 +4,9 @@ title: "Fixing Quiet AAC Stereo Audio on Android TV over HDMI ARC (The Xiaomi & 
 date: 2026-11-08
 categories: [Self-Hosting, Jellyfin, Audio]
 tags: [jellyfin, android-tv, audio, troubleshooting, tdarr, docker, proxmox, xiaomi]
+image:
+  path: /assets/img/audio-issues.png
+  alt: "Fixing Quiet AAC Stereo Audio on Android TV over HDMI ARC"
 ---
 
 ## The Symptom
@@ -218,7 +221,7 @@ services:
 
 ### 1a. Sample ENV file
 
-```env
+```
 # Tdarr Environment Variables
 # Match these to your system user. Run `id` on the host to get values.
 # Set PUID/PGID to 0:0 to match, OR create a dedicated media user (recommended).
@@ -236,7 +239,7 @@ TDARR_API_KEY=your_api_key_from_tdarr_web_ui
 NODE_NAME=InternalNode
 ```
 
-### 2. Tdarr Flow Configuration (E-AC3 Conversion)
+### 2. Tdarr Flow Configuration (AC3 Conversion)
 Using the classic plugin runner node (`Tdarr_Plugin_a9hd_FFMPEG_Transcode_Specific_Audio_Stream_Codecs`), you can target `aac` input streams and transcode them cleanly to **`ac3` (Dolby Digital Plus)** while copying video tracks (`-c:v copy`).
 
 ```json
