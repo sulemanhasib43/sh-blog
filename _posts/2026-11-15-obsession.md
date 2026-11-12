@@ -1,6 +1,6 @@
 ---
 title: "Week 2: Obsession"
-date: 2026-11-15
+date: 2026-11-12
 categories: ["learning"]
 tags: ["obsession", "pattern-recognition", "week-2"]
 ---
